@@ -9,9 +9,9 @@ Starter code for the Social App capstone project. See my.kenzie for details.
 
 1. Go to the profile page `pages/Profile.js`
 2. Add new components in the `render` method
-3. Review the example component, Messages * `components/messages/Messages.js`
+3. Review the example component, Messages `components/messages/Messages.js`
 4. Take note of the `withAsyncAction` function
-    * ALl new componets will require this import `import { withAsyncAction } from "../../redux/HOCs";`
+    * All new components will require this import `import { withAsyncAction } from "../../redux/HOCs";`
     * All new components will require this export `export default withAsyncAction("profile", "all”)({COMPONENT CLASS NAME});`
       * `{COMPONENT CLASS NAME}` will be the components class name. ex. is in `components/messages/Messages.js`
       * `"profile"` fetches all profile methods
